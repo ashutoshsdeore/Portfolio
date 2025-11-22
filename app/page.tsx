@@ -1,9 +1,25 @@
-export default function Test() {
+import Hero from './components/Hero';
+import About from './components/About';
+import Experience from './components/Experience';
+import Projects from './components/Project';
+import Skills from './components/Skills';
+import Certifications from './components/Certifications';
+import Education from './components/Education';
+import Contact from './components/Contact';
+
+function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-indigo-600">
-        Tailwind is Working! 🎉
-      </h1>
+    <div className="min-h-screen bg-gray-900">
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Skills />
+      <Certifications />
+      <Education />
+      <Contact />
     </div>
   );
 }
+
+export default App;
