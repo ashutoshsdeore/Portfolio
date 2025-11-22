@@ -149,7 +149,7 @@ export default function Hero() {
       )}
 
       {/* NAVBAR - centered transparent; removed name from left */}
-      <header className="absolute top-4 left-80 right-0 z-30 flex justify-center">
+      <header className="absolute top-4 left-0 right-0 z-30 flex justify-center">
         <div className="w-full max-w-3xl mx-auto px-4">
 <div className="
   backdrop-blur-md 
